@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: resume-deploy
+  name: resume-deploy
+  namespace: resume-ns
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: resume-deploy
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: resume-deploy
+    spec:
+      containers:
+      - image: sembawey/resume-maker_httpd:v1
+        name: resume-maker-httpd-vvwjz
+        ports:
+        - containerPort: 80
+        resources: {}
+status: {}
