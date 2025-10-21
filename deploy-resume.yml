@@ -17,8 +17,8 @@ spec:
         app: resume-deploy
     spec:
       containers:
-        #- image:  sembawey/practice_devops:Updated_alpine
-      - image: sembawey/resume-maker_httpd:v1
+      - image:  sembawey/practice_devops:Updated_alpine
+        #- image: sembawey/resume-maker_httpd:v1
         name: resume-maker-httpd-vvwjz
         ports:
         - containerPort: 80
