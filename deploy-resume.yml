@@ -6,12 +6,12 @@ metadata:
   name: resume-deploy
   namespace: resume-ns
 spec:
-  replicas: 10 
+  replicas: 15 
   strategy:
     type: RollingUpdate
     rollingUpdate:
       maxUnavailable: 0      # how many pods can be unavailable during the update
-      maxSurge: 1            # how many extra pods can be created temporarily
+      maxSurge: 3            # how many extra pods can be created temporarily
   selector:
     matchLabels:
       app: resume-deploy
