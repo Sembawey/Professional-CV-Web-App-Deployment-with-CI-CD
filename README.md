@@ -10,6 +10,7 @@
 > Generates a professional CV dynamically.
 > Containerized web application with enhanced httpd image.
 > Kubernetes deployment with multiple service types: ClusterIP, NodePort, LoadBalancer.
+> Rolling Update strategy to Assure High Availability
 > Continuous Integration and Continuous Deployment (CI/CD) with Jenkins.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -31,7 +32,7 @@
 --------------------
 > Monitors GitHub repository for changes (e.g., image updates).
 > Automatically deletes the existing deployment and pods.
-> Deploys new pods and deployment based on updated image or YAML files.
+> Deploys new pods and deployment based on updated image or YAML files using Rolling Update strategy.
 > Ensures zero manual intervention for updates.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 
