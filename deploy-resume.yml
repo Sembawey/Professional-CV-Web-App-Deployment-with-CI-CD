@@ -11,7 +11,7 @@ spec:
     type: RollingUpdate
     rollingUpdate:
       maxUnavailable: 0      # how many pods can be unavailable during the update
-      maxSurge: 0            # how many extra pods can be created temporarily
+      maxSurge: 1            # how many extra pods can be created temporarily
   selector:
     matchLabels:
       app: resume-deploy
