@@ -10,7 +10,7 @@ spec:
   strategy:
     type: RollingUpdate
     rollingUpdate:
-      maxUnavailable: 0      # how many pods can be unavailable during the update
+      maxUnavailable: 3      # how many pods can be unavailable during the update
       maxSurge: 3            # how many extra pods can be created temporarily
   selector:
     matchLabels:
@@ -26,5 +26,11 @@ spec:
         name: resume-maker-httpd-vvwjz
         ports:
         - containerPort: 80
+
+        command: ["/bin/sh"]
+        args: ["-c", "while true; do sleep 3600; done"]
+        stdin: true
+        tty: true
+
         resources: {}
 status: {}
