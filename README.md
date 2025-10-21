@@ -75,7 +75,7 @@
 
 **Author**
 ----------
-> Ahmed El-Sembawey  |  
-> Email: ahmedelsembaweyofficial@gmail.com  |  
+> Ahmed El-Sembawey     
+> Email: ahmedelsembaweyofficial@gmail.com     
 > LinkedIn: [https://www.linkedin.com/in/ahmed-elsembawey/]  
 ------------------------------------------------------------------------------------------------------------------------------------------------------
