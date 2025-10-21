@@ -6,7 +6,7 @@ metadata:
   name: resume-deploy
   namespace: resume-ns
 spec:
-  replicas: 3
+  replicas: 8
   selector:
     matchLabels:
       app: resume-deploy
