@@ -78,6 +78,6 @@
 ----------
 > Ahmed El-Sembawey     
 > Email: ahmedelsembaweyofficial@gmail.com     
-> LinkedIn: [https://www.linkedin.com/in/ahmed-elsembawey/]
-> Phone: +201005195383 || +201118144672 
+> LinkedIn: [https://www.linkedin.com/in/ahmed-elsembawey/]                                                                    
+> Phone: +201005195383 || +201118144672                                                                             
 ------------------------------------------------------------------------------------------------------------------------------------------------------
